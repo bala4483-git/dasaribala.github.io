@@ -1,5 +1,5 @@
 fetch('projects.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
     const container = document.getElementById('projects-container');
     data.forEach(proj => {

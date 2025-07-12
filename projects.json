@@ -3,48 +3,10 @@
     "title": "Smart Sort AI Optimization – Purolator (Infosys Canada)",
     "role": "Senior Business Analyst / BI Consultant",
     "description": [
-      "Spearheaded the modernization of Purolator's Smart Sort platform, migrating from legacy systems to Azure Cloud and integrating AI/ML for predictive routing and load balancing.",
-      "Gathered and refined logistics business requirements, designing Sort Plan and Route Plan Management modules, improving delivery network efficiency.",
-      "Enabled automated address triaging and dynamic sort plan overrides, reducing delivery errors and enhancing first-attempt delivery success rates.",
-      "Integrated real-time data flows with InfoHub, allowing seamless AI model updates and centralized operational monitoring."
+      "Spearheaded Smart Sort modernization with Azure and AI integration.",
+      "Designed route management modules and automated address triaging."
     ],
-    "tools": ["Azure DevOps", "SQL Server", "AI/ML algorithms", "Power BI", "InfoHub", "Cloud Migrate"],
-    "impact": "Enhanced parcel routing accuracy, reduced operational bottlenecks, and improved delivery turnaround time through AI-powered automation."
-  },
-  {
-    "title": "Digital Identity & CIAM Transformation – Canada Post (Innovapost, Infosys Canada)",
-    "role": "Senior Business Analyst / Business Consultant",
-    "description": [
-      "Led identity data migration and governance for the CIAM platform, improving customer security and regulatory compliance.",
-      "Defined metadata standards, role-based access controls, and implemented fraud detection and AML screening processes.",
-      "Partnered with compliance teams to introduce new customer identity verification controls, improving fraud prevention during account onboarding.",
-      "Developed KPIs to monitor migration accuracy, authentication performance, and fraud detection rates, presenting insights during PMO steering meetings."
-    ],
-    "tools": ["Azure DevOps", "JIRA", "Confluence", "Slack", "SQL Server", "CIAM Platforms"],
-    "impact": "Strengthened security for millions of Canada Post customers while aligning business processes with AML and privacy regulations."
-  },
-  {
-    "title": "Online Banking Modernization – Equitable Bank",
-    "role": "Senior Business Analyst",
-    "description": [
-      "Led AML screening, fraud detection, and customer risk workflow modernization in the digital banking platform, enhancing compliance and customer experience.",
-      "Partnered with stakeholders to gather business requirements, draft user stories, and define process flows for automation using WorkFusion.",
-      "Oversaw UAT planning and execution, ensuring successful rollout of secure digital banking features and risk monitoring tools.",
-      "Produced process flow diagrams, sprint planning artifacts, and status dashboards to align product delivery with compliance requirements."
-    ],
-    "tools": ["WorkFusion", "Power BI", "Jira", "Confluence", "SQL", "Agile Scrum"],
-    "impact": "Delivered compliant and secure digital banking processes, reducing fraud risk and improving operational agility."
-  },
-  {
-    "title": "Pharmacy Order-to-Cash Optimization & ClaimsCenter Support – Walgreens (Genpact India)",
-    "role": "Business Analyst / QA Analyst",
-    "description": [
-      "Supported pharmacy O2C and clinical operations for Walgreens, improving claim processing, billing cycles, and patient safety systems.",
-      "Led Guidewire ClaimsCenter enhancements, optimizing claim triage, payment workflows, and integrations with billing & provider systems.",
-      "Produced KPIs for claim denial rates, refill turnaround, and billing cycle performance, supporting leadership decision-making.",
-      "Provided second-level support for clinical systems, leading user training and facilitating seamless technology adoption."
-    ],
-    "tools": ["Guidewire ClaimsCenter", "Oracle", "SQL Server", "UAT tools", "Agile Scrum"],
-    "impact": "Improved pharmacy claim processing timelines, optimized billing workflows, and enhanced healthcare compliance."
+    "tools": ["Azure DevOps", "Power BI", "SQL Server"],
+    "impact": "Improved delivery accuracy and reduced sorting errors."
   }
 ]
