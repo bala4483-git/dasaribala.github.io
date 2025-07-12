@@ -42,11 +42,11 @@
         </ul>
     </section>
 
-   <section id="projects" style="background-color:#f9fafc; padding:20px;">
-      <h2>Key Projects & Contributions</h2>
-      <div id="projects-container"></div>
-   </section>
-   <script src="scripts.js"></script>
+   <!-- Projects Section -->
+<section id="projects" style="background-color:#f9fafc; padding:20px;">
+  <h2>Key Projects & Contributions</h2>
+  <div id="projects-container"></div>
+</section>
 
 
     <section id="contact" style="background-color:#ffffff; padding:20px; text-align:center;">
@@ -61,5 +61,28 @@
     </footer>
 
     <script src="scripts.js"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('projects-container');
+
+    fetch('projects.json')
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(proj => {
+          const div = document.createElement('div');
+          div.className = "project";
+          div.innerHTML = `
+            <h3>${proj.title}</h3>
+            <p><strong>Role:</strong> ${proj.role}</p>
+            ${proj.description.map(line => `<p>${line}</p>`).join("")}
+            <p><strong>Tools Used:</strong> ${proj.tools.join(", ")}</p>
+            <p><strong>Impact:</strong> ${proj.impact}</p>
+          `;
+          container.appendChild(div);
+        });
+      });
+  });
+</script>
+
 </body>
 </html>
